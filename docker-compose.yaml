@@ -3,8 +3,8 @@ version: "3"
 services:
   spotify:
     build:
-      context: ./src
-      dockerfile: Dockerfile
+      context: src
+      dockerfile: DockerFile
     ports:
       - 5000:3000
     restart: always
